@@ -1,0 +1,163 @@
+body {
+    background-image: url(/Images/other/Italia1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: "poiret One, serif";
+    overflow-x: hidden;
+}
+
+.navbar {
+    background-color: rgb(66, 40, 23) !important;
+    background-image: var(--bs-gradient);
+    font-family: "poiret One, serif";
+}
+
+.dropdown-menu, .bg-dark {
+    background-color: rgb(66, 40, 23) !important;
+    background-image: var(--bs-gradient);
+}
+
+hr {
+    color: white;
+}
+
+.shield {
+    background-color: rgba(66, 40, 23, 0.70);
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 1%;    
+}
+
+.carousel {
+    width: 65%;
+    height:20%;   
+    margin: auto;
+    padding-top: 1%;
+}
+
+.titles {
+    color: white;
+    margin: auto;
+    padding-top: 2%;
+    text-align: center;
+    text-shadow: 5px -4px 5px rgb(29, 18, 10);
+
+}
+
+fieldset {
+    padding: 20px;
+    border: solid 5px white;
+    border-radius: 10px;
+    background-color: rgb(66, 40, 23);
+    background-image: var(--bs-gradient);
+    margin: auto;
+
+}
+
+.about {
+    width: 65%;
+}
+
+.row {
+    justify-content: center;
+}
+
+.card {
+    margin: 2%;
+    padding: 1%;
+}
+
+.card-body {
+    background-color: rgb(66, 40, 23) !important;
+    background-image: var(--bs-gradient); 
+}
+
+footer {
+    text-align: center;
+    color: white;
+    padding: 2%;
+}
+
+.container-map {
+    align-items: center;
+}
+
+iframe {
+filter: invert(90%);
+}
+
+
+.titles-hours {
+    color: white;
+    text-align: center;
+    text-shadow: 5px -4px 5px rgb(29, 18, 10);
+    font-size: large;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.form-floating {
+    display: flex;
+    width: 50%;
+    margin: auto;
+    color: rgb(66, 40, 23);
+    font-weight: bolder;   
+}
+
+.form-check {
+    color:white;
+    text-shadow: 5px -4px 5px rgb(29, 18, 10);
+    font-size: large;
+    margin-left: 25%;
+
+}
+
+input[type="checkbox"] {
+    margin: 10px;
+    padding: 7px;
+    appearance: none;
+    height: 5px;
+    width: 5px;
+    cursor: pointer;
+}
+
+input[type="checkbox"]:hover {
+    background-color: rgb(66, 40, 23);
+}
+
+ input[type="checkbox"]:checked {
+    background-color: rgb(66, 40, 23);
+    border: solid white 1px;
+}
+
+.form-select {
+    color: rgb(66, 40, 23);
+    font-weight: bolder;
+}
+
+.text-area {
+width: 40%;
+margin:auto;
+color: white;
+}
+
+.form-label {
+    font-size: x-large;
+}
+
+.btn-primary {
+    background-color: rgb(66, 40, 23) !important;
+    background-image: var(--bs-gradient);
+    border-color: rgb(66, 40, 23) !important;
+    font-family: "poiret One, serif";
+    font-size: x-large;
+    width: 30%;
+    margin: auto;
+}
+.btn-primary :hover {
+    font-weight: bolder;
+} 
